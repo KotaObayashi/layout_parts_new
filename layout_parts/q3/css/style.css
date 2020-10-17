@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.kcal-table{
+  width: 100%;
+  table-layout:fixed;
+}
 
+.header{
+  background-color: #2244aa;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.menu{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu:nth-child(3),.menu:nth-child(5){
+  background-color:#ecf1f2;
+}
+
+.side-text{
+  color: white;
+  background-color: #2244aa;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.kcal{
+  border-top: dashed #000 2px;
+}
+
+.kcal-table td,.kcal-table th{
+  border:solid #dedede 1px
+}
 /* 回答はここに書いてね */
