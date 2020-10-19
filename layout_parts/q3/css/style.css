@@ -18,11 +18,11 @@
   text-align: center;
 }
 
-.kcal-table tr:nth-child(3),.kcal-table tr:nth-child(5){
+.kcal-table tr:nth-child(2n){
   background-color:#ecf1f2;
 }
 
-.kcal-table tr:last-child{
+tbody tr:last-child{
   border-top: dashed #000 2px;
 }
 

@@ -9,6 +9,11 @@
 .ber{
   width: 100%;
   display: table;
+  margin-top: 20px;
+}
+
+.ber:first-child{
+  margin-top: 0;
 }
 
 .ber-child{
@@ -29,10 +34,6 @@
 .blue{
   width: 100px;
   background-color: #b6d8ed;
-}
-
-.ber:last-child{
-  margin-top: 20px;
 }
 
 .yellow{
