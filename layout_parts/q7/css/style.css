@@ -2,22 +2,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.float-box{
+.float-box {
   width: 50px;
 }
 
-.box1-1,.box1-2{
+.box1-1,.box1-2 {
   width: 205px;
   font-size: 16px;
   
 }
 
-.box1-1{
+.box1-1 {
   margin-right: 50px;
   float: left;
 }
 
-.box1-2{
+.box1-2 {
   float: right;
 }
 
@@ -27,66 +27,66 @@
   clear: both;
 }
 
-.box2{
+.box2 {
   display: table;
   border-collapse: separate;
   border-spacing: 0;
 }
 
-.box2-1{
+.box2-1 {
   vertical-align: middle;
   padding-right: 50px;
 }
 
-.box2-1,.box2-2{
+.box2-1,.box2-2 {
   display: table-cell;
   width: 205px;
   font-size: 16px;
 }
 
-.box3{
+.box3 {
   font-size: 0;
 }
 
-.box3-1,.box3-2{
+.box3-1,.box3-2 {
   width: 205px;
   font-size: 16px;
   display: inline-block;
 }
 
-.box3-1{
+.box3-1 {
   vertical-align: middle;
   margin-right: 50px;
 }
 
-.box3-2{
+.box3-2 {
   vertical-align: middle;
 }
 
-.box4{
+.box4 {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.box4-1,.box4-2{
+.box4-1,.box4-2 {
   width: 205px;
 }
 
-.box5{
+.box5 {
   display: flex;
 }
 
-.box5-1,.box5-2{
+.box5-1,.box5-2 {
   font-size: 16px;
 }
 
-.box5-1{
+.box5-1 {
   width: 300px;
   margin-right: 50px;
 }
 
-.box5-2{
+.box5-2 {
   flex: 1;
 }
 /* 回答はここに書いてね */
