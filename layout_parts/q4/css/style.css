@@ -1,50 +1,50 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.gray{
+.gray {
   background-color: #ecf1f2;
   padding: 20px;
 }
 
-.ber{
+.ber {
   width: 100%;
   display: table;
   margin-top: 20px;
 }
 
-.ber:first-child{
+.ber:first-child {
   margin-top: 0;
 }
 
-.ber-child{
+.ber-child {
   padding: 20px 0;
   text-align: center;
   display: table-cell;
 }
 
-.orange{
+.orange {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.purple{
+.purple {
   background-color: #e0abd9;
 }
 
-.blue{
+.blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.yellow{
+.yellow {
   background-color: #e5d32e;
  }
 
-.red{
+.red {
   background-color: #ec8f9a;
 }
 
-.green{
+.green {
   width: 500px;
   background-color: #8fdcad;
 }

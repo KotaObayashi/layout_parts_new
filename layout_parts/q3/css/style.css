@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.kcal-table{
+.kcal-table {
   width: 100%;
   table-layout:fixed;
 }
 
-.kcal-table th{
+.kcal-table th {
   color: white;
   background-color: #2244aa;
   padding: 10px;
@@ -14,19 +14,19 @@
   line-height: 26px;
 }
 
-.kcal-table td{
+.kcal-table td {
   text-align: center;
 }
 
-.kcal-table tr:nth-child(2n){
+.kcal-table tr:nth-child(2n) {
   background-color:#ecf1f2;
 }
 
-tbody tr:last-child{
+.kcal-table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
-.kcal-table td,.kcal-table th{
+.kcal-table td,.kcal-table th {
   border:solid #dedede 1px
 }
 /* 回答はここに書いてね */
