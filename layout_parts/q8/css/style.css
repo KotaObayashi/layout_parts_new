@@ -2,8 +2,8 @@
 
 /* 回答はここに書いてね */
 .car-box {
-  width: 500px;
-  height: 333px;
+  width: 80%;
+  height: 100%;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
@@ -16,8 +16,8 @@
   color: white;
   word-break: break-all;
   position: absolute;
-  left: 20px;
-  bottom: -120px;
+  left: 4%;
+  bottom: -35%;
   padding-right: 20px;
 }
 
