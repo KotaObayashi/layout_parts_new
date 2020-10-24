@@ -2,13 +2,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box1 {
+.float-box {
   width: 205px;
   font-size: 16px;
   float: left;
 }
 
-.box1-1 {
+.float-box:first-child {
   margin-right: 50px; 
 }
 
@@ -18,62 +18,62 @@
   clear: both;
 }
 
-.boxes2 {
+.table-boxes {
   display: table;
   border-collapse: separate;
   border-spacing: 0;
 }
 
-.box2-1 {
+.table-box:first-child {
   vertical-align: middle;
   padding-right: 50px;
 }
 
-.box2 {
+.table-box {
   display: table-cell;
-  width: 205px;
+  width: 225px;
   font-size: 16px;
 }
 
-.boxes3 {
+.inlineblock-boxes {
   font-size: 0;
 }
 
-.box3 {
+.inlineblock-box {
   width: 205px;
   font-size: 16px;
   display: inline-block;
   vertical-align: middle;
 }
 
-.box3-1 {  
+.inlineblock-box:first-child {  
   margin-right: 50px;
 }
 
-.boxes4 {
+.flex-boxes {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.box4 {
+.flex-box {
   width: 205px;
 }
 
-.boxes5 {
+.derived-boxes {
   display: flex;
 }
 
-.box5 {
+.derived-box {
   font-size: 16px;
 }
 
-.box5-1 {
+.derived-left {
   width: 300px;
   margin-right: 50px;
 }
 
-.box5-2 {
+.derived-right {
   flex: 1;
 }
 /* 回答はここに書いてね */

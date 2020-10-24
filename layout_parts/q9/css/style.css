@@ -12,9 +12,12 @@
   position: relative;
 }
 
-.comment:before {
+.comment:before,:after {
   content: "";
   position: absolute;
+}
+
+.comment:before {
   bottom: -40px;
   left: 25px;
   border: 20px solid transparent;
@@ -23,8 +26,6 @@
 }
 
 .comment:after {
-  content: "";
-  position: absolute;
   bottom: -50px;
   left: 20px;
   border: 25px solid transparent;
