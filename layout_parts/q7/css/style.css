@@ -61,19 +61,23 @@
 }
 
 .derived-boxes {
-  display: flex;
+  font-size: 0;
 }
 
 .derived-box {
   font-size: 16px;
+  display: inline-block;
 }
 
 .derived-left {
   width: 300px;
-  margin-right: 50px;
+  vertical-align: top;
 }
 
 .derived-right {
-  flex: 1;
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  box-sizing: border-box;
 }
 /* 回答はここに書いてね */
